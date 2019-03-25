@@ -2,7 +2,7 @@ import {browser, by, protractor} from 'protractor';
 
 export class Home {
 
-    topMenuContactButton = browser.element(by.css('.display-div .no-underline-a .nav-contact'));
+    topMenuContactButton = browser.element(by.xpath('//a[contains(@href, "/contact-us")]'));
 
     public until = protractor.ExpectedConditions;
 
