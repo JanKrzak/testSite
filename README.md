@@ -1,3 +1,14 @@
+#Installation:
+1. Go to /testSite directory
+2. Run from comand line: npm install
+3. Run from comand line: webdriver-manager update
+
+#Run test:
+1. Open CMD
+2. Go to e2e-tests directory (\testSite\e2e-tests)
+3. Run from comand line: protractor protractor.conf.js
+
+
 # `angular-seed` — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
